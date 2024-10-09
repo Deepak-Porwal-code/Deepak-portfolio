@@ -115,12 +115,11 @@ header {
     margin-left: 35px;
 }
 .center2 {
-    margin-left: 60px;
     height: 150px;
-    width: 1400px;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0 100px;
     border-top-color: white;
     border-left-color:white;
     border-right-color:white;
@@ -416,4 +415,77 @@ input {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
     margin-bottom: 60px;
+}
+@media (max-width: 1024px) {
+    header {
+        height: 80px;
+        padding: 5px;
+        justify-content: space-between;
+    }
+
+    .icon {
+        height: 60px;
+        width: 150px;
+        margin-right: 300px;
+    }
+
+    .dot1, .dot2, .dot3 {
+        width: 20px;
+    }
+
+    .center {
+        margin-top: 80px;
+        flex-direction: column;
+    }
+
+    .item {
+        height: 400px;
+        width: 400px;
+        margin-right: 20px;
+    }
+
+    .itemtext {
+        width: 500px;
+        margin-top: 5px;
+    }
+
+    .center2 {
+        padding: 0 50px;
+    }
+
+    .center2part1, .center2part2, .center2part3 {
+        width: 250px;
+    }
+
+    .center2icon1, .center2icon2, .center2icon3 {
+        height: 80px;
+        width: 80px;
+    }
+
+    .menu {
+        flex-wrap: wrap;
+    }
+
+    .menu2 {
+        font-size: 1.2rem;
+        margin-left: 20px;
+    }
+
+    .menuimage1, .menuimage2, .menuimage3 {
+        margin-left: 5px;
+    }
+
+    footer {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .last1 {
+        margin-bottom: 20px;
+    }
+
+    .last2sub1, .last3sub1, .last4sub1 {
+        font-size: 1rem;
+    }
 }

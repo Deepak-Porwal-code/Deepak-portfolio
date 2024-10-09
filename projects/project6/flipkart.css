@@ -4,6 +4,9 @@
     border: border-box;
     background-color: rgb(233, 242, 247);
 }
+body {
+    padding: -100px;
+}
 header{
     height: 68px;
     background-color: white;
@@ -261,6 +264,9 @@ pre#point9 {
     border-color: black;
     margin-left: 20px;
     margin-right: 20px;
+}
+.banner img {
+    width: 100%;
 }
 .arrow1 {
     border-bottom-right-radius: 5px;
@@ -1074,4 +1080,38 @@ ul {
 .footericon {
     background-color: black;
     margin-left: 40px;
+}  
+@media screen and (max-width: 1200px) {
+    .search input {
+        width: 500px;
+    }
+    .title {
+        margin-right: 900px;
+    }
+    .mobileimage {
+        height: 200px;
+    }
+    .mobileimagepart1, .mobileimagepart2, .mobileimagepart3, .mobileimagepart4, 
+    .mobileimagepart5, .mobileimagepart6, .mobileimagepart7 {
+        width: 150px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .frip-icon, .frip-options {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .search input {
+        width: 300px;
+    }
+    .title {
+        margin-right: 500px;
+    }
+    .mobileimage {
+        height: 150px;
+    }
+    .mobileimagepart1, .mobileimagepart2, .mobileimagepart3, .mobileimagepart4, 
+    .mobileimagepart5, .mobileimagepart6, .mobileimagepart7 {
+        width: 130px;
+    }
 }

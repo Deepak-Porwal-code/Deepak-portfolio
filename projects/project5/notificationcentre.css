@@ -12,7 +12,6 @@
     background-size: cover;
     overflow: scroll;
     overflow-x: hidden;
-    display: none;
 }
 .notificationpoints {
     width: 270px;

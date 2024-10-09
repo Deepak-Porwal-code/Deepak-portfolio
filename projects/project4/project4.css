@@ -33,7 +33,7 @@ header {
     display: inline-block;
     display: flex;
     justify-content: space-evenly;
-    margin-left: 400px; 
+    margin-left: 200px; 
     scroll-behavior: smooth;
 }
 a {
@@ -316,4 +316,126 @@ footer {
     justify-content: center;
     align-items: center;
     background-color: rgb(51, 2, 96);
+}
+@media (max-width: 1024px) {
+    .header1 {
+        font-size: 2rem;
+        margin-left: 50px;
+        margin-right: 200px;
+    }
+    .header2 {
+        width: 300px;
+        font-size: 1rem;
+        margin-left: 200px;
+    }
+    .musictext1 {
+        font-size: 4rem;
+        top: 150px;
+    }
+    .musictext2 {
+        font-size: 1.5rem;
+    }
+    .musictext3 {
+        font-size: 1rem;
+    }
+    .music, .music1, .music2 {
+        font-size: 1rem;
+    }
+    .cardimg {
+        height: 300px;
+        width: 400px;
+    }
+    .card {
+        flex-direction: column;
+    }
+    .cardother {
+        width: 100%;
+    }
+    .footer2 {
+        font-size: 1rem;
+    }
+}
+@media (max-width: 768px) {
+    .header1 {
+        font-size: 1.5rem;
+        margin-left: 20px;
+        margin-right: 100px;
+    }
+    .header2 {
+        width: 200px;
+        font-size: 0.9rem;
+        margin-left: 100px;
+    }
+    .musicposter {
+        background-position: center;
+        height: 80vh;
+    }
+    .musictext1 {
+        font-size: 3rem;
+        top: 120px;
+    }
+    .musictext2 {
+        font-size: 1.3rem;
+    }
+    .musictext3 {
+        font-size: 0.9rem;
+    }
+    .music {
+        height: 60vh;
+    }
+    .cardimg {
+        height: 250px;
+        width: 350px;
+    }
+    .card {
+        flex-direction: column;
+    }
+    .footer2 {
+        font-size: 0.9rem;
+    }
+}
+@media (max-width: 480px) {
+    header {
+        height: 60px;
+    }
+    .header1 {
+        font-size: 1.2rem;
+        margin-left: 10px;
+        margin-right: 50px;
+    }
+    .header2 {
+        width: 150px;
+        font-size: 0.8rem;
+    }
+    .musicposter {
+        height: 60vh;
+    }
+    .musictext1 {
+        font-size: 2rem;
+        top: 100px;
+    }
+    .musictext2 {
+        font-size: 1rem;
+    }
+    .musictext3 {
+        font-size: 0.8rem;
+    }
+    .music {
+        height: 50vh;
+    }
+    .cardimg {
+        height: 200px;
+        width: 300px;
+    }
+    .cardother {
+        width: 100%;
+    }
+    .footer2 {
+        font-size: 0.8rem;
+    }
+    button {
+        width: 60px;
+        height: 30px;
+        font-size: 0.8rem;
+    }
 }
