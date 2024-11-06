@@ -1,0 +1,138 @@
+@media screen and (min-width:1200px) and (max-width:1500px){
+    .adjust {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        line-height: 40px;
+        padding: 0 25px;
+    }
+}
+@media screen and (min-width:1000px) and (max-width:1200px){
+    .adjust {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        line-height: 40px;
+        margin: 0 0 0 5px;
+    }
+    .login {
+        height: 70vh;
+        width: 80%;
+        border: 0;
+        display: flex;
+        background-color: #ffffff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+}
+@media screen and (min-width:700px) and (max-width:1000px){
+    .login {
+        height: 70vh;
+        width: 98%;
+        border: 0;
+        display: flex;
+        background-color: #ffffff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+}
+@media screen and (min-width:400px) and (max-width:700px){
+    .login {
+        height: 70vh;
+        width: 98%;
+        border: 0;
+        display: flex;
+        background-color: #ffffff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .logindetail {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        line-height: 30px;
+        background-color: Light Blue(#e0f7fa);
+    }
+    .img {
+        height: 100%;
+        width: 50%;
+        display: none;
+        border-radius: 5px;
+        background-image: url(vecteezy_man-character-learn-remotely-from-home-online-distance_5514524.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .adjust {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        line-height: 40px;
+        padding-left: 40px;
+    }
+    .Signdetail {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        line-height: 25px;
+        background-color: Light Blue(#e0f7fa);
+        display: none;
+    }
+}
+@media screen and (min-width:320px) and (max-width:400px){
+    .login {
+        height: 70vh;
+        width: 98%;
+        border: 0;
+        display: flex;
+        background-color: #ffffff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .logindetail {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        line-height: 30px;
+        background-color: Light Blue(#e0f7fa);
+    }
+    .img {
+        height: 100%;
+        width: 50%;
+        display: none;
+        border-radius: 5px;
+        background-image: url(vecteezy_man-character-learn-remotely-from-home-online-distance_5514524.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .adjust {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        line-height: 40px;
+        padding-left: 40px;
+    }
+    .Signdetail {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        line-height: 25px;
+        background-color: Light Blue(#e0f7fa);
+        display: none;
+    }
+}
